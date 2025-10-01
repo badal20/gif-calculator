@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button onclick="press('7')"> <img src="g-7.gif" alt="7" class="gif"></button>
+      <button onclick="press('8')"> <img src="g-8.gif" alt="8" class="gif"></button>
+      <button onclick="press('9')"> <img src="g-9.gif" alt="9" class="gif"></button>
+      <button onclick="press('/')"> <img src="dn.gif" alt="D" class="gif"></button>
+
+      <button onclick="press('4')"> <img src="g-4.gif" alt="4" class="gif"></button>
+      <button onclick="press('5')"> <img src="g-5.gif" alt="5" class="gif"></button>
+      <button onclick="press('6')"> <img src="g-6.gif" alt="6" class="gif"></button>
+      <button onclick="press('*')"> <img src="mn.gif" alt="M" class="gif"></button>
+
+      <button onclick="press('1')"> <img src="g-1.gif" alt="1" class="gif"></button>
+      <button onclick="press('2')"> <img src="g-2.gif" alt="2" class="gif"></button>
+      <button onclick="press('3')"> <img src="g-3.gif" alt="3" class="gif"></button>
+      <button onclick="press('-')"> <img src="sn.gif" alt="S" class="gif"></button>
+
+      <button onclick="press('0')"> <img src="g-0.gif" alt="0" class="gif"></button>
+      <button onclick="press('.')"><img src="d.gif" alt="."></button>
+      <button onclick="calculate()" class="equal"><img src="=.gif" alt="=" class="git"></button>
+      <button onclick="press('+')"> <img src="an.gif" alt="A" class="gif"></button>
+
+      <button onclick="clearDisplay()" class="clear"><img src="c.gif" alt="cl" class="gif"></button>
+      <button onclick="calculate()" class="equal"><img src="cal.gif" alt="cal" class="git"></button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
